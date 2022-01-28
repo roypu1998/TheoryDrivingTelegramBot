@@ -7,7 +7,7 @@ import os
 
 
 token = os.environ.get('API_TOKEN',None)
-bot = TeleBot('1440147560:AAENooaM_rV_g9n3fPI3nV18m-xJ7_1aetQ')
+bot = TeleBot(token=token)
 
 
 global phone_no, correct, incorrect_Point, correct_Point, markup, limit, mid, msgIncorrect_id
